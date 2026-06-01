@@ -2,6 +2,9 @@
 
 include("infra/db/connect.php");
 
+
+
+
 if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     $usuario = $_POST["usuario"];
